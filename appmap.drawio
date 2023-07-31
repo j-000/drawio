@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T14:37:22.545Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_g3jrSaTYCYBoFna6KFL" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T14:44:49.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Si5IsK0s01PRjGZedGqg" version="21.6.6" type="github">
   <diagram name="Page-1" id="vOo8jksbLvnz8HRP__D6">
-    <mxGraphModel dx="2473" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="FSZ9ziUvTJ2NgvbFKpa--62" value="Login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--1">
           <mxGeometry x="20" y="120" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FSZ9ziUvTJ2NgvbFKpa--86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FSZ9ziUvTJ2NgvbFKpa--1" source="FSZ9ziUvTJ2NgvbFKpa--64" target="FSZ9ziUvTJ2NgvbFKpa--85">
+        <mxCell id="FSZ9ziUvTJ2NgvbFKpa--86" value="On success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FSZ9ziUvTJ2NgvbFKpa--1" source="FSZ9ziUvTJ2NgvbFKpa--64" target="FSZ9ziUvTJ2NgvbFKpa--85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FSZ9ziUvTJ2NgvbFKpa--64" value="UsersController.login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--1">
@@ -56,9 +56,9 @@
           <mxGeometry x="610" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FSZ9ziUvTJ2NgvbFKpa--2" value="Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="10" width="1170" height="780" as="geometry" />
+          <mxGeometry x="840" y="24" width="1170" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="FSZ9ziUvTJ2NgvbFKpa--38" value="UsersController.register" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--2">
+        <mxCell id="FSZ9ziUvTJ2NgvbFKpa--38" value="UsersController.register" style="swimlane;whiteSpace=wrap;html=1;fillStyle=auto;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;gradientColor=none;swimlaneFillColor=#FFFFFF;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--2">
           <mxGeometry x="20" y="35" width="210" height="215" as="geometry">
             <mxRectangle x="20" y="35" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -78,9 +78,9 @@
         <mxCell id="FSZ9ziUvTJ2NgvbFKpa--44" value="Send {success: true}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--38">
           <mxGeometry x="30" y="165" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FSZ9ziUvTJ2NgvbFKpa--47" value="UsersController.login" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--2">
-          <mxGeometry x="254" y="35" width="590" height="275" as="geometry">
-            <mxRectangle x="254" y="35" width="180" height="30" as="alternateBounds" />
+        <mxCell id="FSZ9ziUvTJ2NgvbFKpa--47" value="UsersController.login" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=#ffffff;" vertex="1" parent="FSZ9ziUvTJ2NgvbFKpa--2">
+          <mxGeometry x="250" y="35" width="590" height="275" as="geometry">
+            <mxRectangle x="250" y="35" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FSZ9ziUvTJ2NgvbFKpa--66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FSZ9ziUvTJ2NgvbFKpa--47" source="FSZ9ziUvTJ2NgvbFKpa--49" target="FSZ9ziUvTJ2NgvbFKpa--65">
